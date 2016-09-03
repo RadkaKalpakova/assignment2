@@ -1,0 +1,172 @@
+body{
+	background-color: #E6DAA8;
+}
+
+
+#header-nav{
+	border-radius: 0;
+	border: 0;
+	background-color: #942107;
+}
+
+#header-nav a{
+	color: #F5F5DF;
+	
+}
+
+.navbar-default .navbar-collapse {
+	border-color: #942107;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #631504;
+}
+
+.navbar-toggle {
+	background-color: #F5F5DF;
+	border: 1px solid #821A03;
+}
+
+
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: #E8E8C3;
+}
+
+
+
+#tiles {
+	margin: 20px;
+
+}
+
+#tile {
+	padding: 40px;
+	background-color: #E8E8C3;
+	border-radius: 2px;
+	box-shadow: 0 1px 5px 1px #ABAB89;
+}
+
+#sushi{
+	padding: 40px;
+	background-color: #E8E8C3;
+	border-radius: 2px;
+	box-shadow: 0 1px 5px 1px #ABAB89;
+}
+
+.navbar-brand p span{ 
+	vertical-align: center;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.8em;
+	color: #F5F5EB;
+	text-shadow: 1px 1px 1px #222;
+	padding-top: 20px;
+}
+
+#tile p span{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.8em;
+}
+
+/*#sushi p span{
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1.8em;
+}*/
+
+h1{
+	font-family: "Times New Roman", Times, serif;
+	text-shadow: 1px 1px 1px #ccc;
+}
+
+@media (min-width: 991px) {
+	.navbar-brand {
+	margin-top: 9px;
+}
+
+	#tile{
+		height: 870px;
+	}
+
+	#header-nav a{
+		text-shadow: 1px 1px 1px #222;
+	}
+}
+
+@media (min-width: 991px) and (max-width: 1199px){
+	.navbar-brand {
+	margin-top: 9px;
+}
+
+	#tile{
+		height: 870px;
+	}
+
+	#sushi {
+		height: 870px;
+	}
+
+	#header-nav a{
+		text-shadow: 1px 1px 1px #222;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+	.navbar-brand {
+	margin-top: 9px;
+}
+
+	#header-nav a{
+		text-shadow: 1px 1px 1px #222;
+	}
+
+	#tile{
+		height: 750px;
+		margin-bottom: 20px;
+	}
+
+	#sushi {
+		height: 320px;
+	}
+
+}
+
+
+@media (max-width: 767px) {
+	 a {
+		text-align: center;
+		font-size: 1.2em;
+	}
+
+	#nav-list{
+		background-color: #F5F5DF;
+		//margin-bottom: -1px;
+		border: 0;
+
+	}
+
+	#header-nav a{
+	color: #000;
+	}
+
+	#tile{
+		margin-bottom: 20px;
+	}
+
+}
+
+@media (max-width: 479px) {
+	a {
+		text-align: center;
+		font-size: 1.2em;
+	}
+
+	#nav-list{
+		background-color: #F5F5DF;
+		//margin-bottom: -1px;
+	}
+
+	#header-nav a{
+	color: #000;
+	}
+
+}
