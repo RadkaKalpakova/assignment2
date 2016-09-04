@@ -78,17 +78,19 @@ h1{
 	text-shadow: 1px 1px 1px #ccc;
 }
 
+
+
 @media (min-width: 1200px) {
 	.navbar-brand {
 	margin-top: 9px;
 }
 
 	#tile{
-		height: 870px;
+		height: 900px;
 	}
 
 	#sushi{
-		height: 870px;
+		height: 900px;
 	}
 
 	#header-nav a{
@@ -102,11 +104,11 @@ h1{
 }
 
 	#tile{
-		height: 870px;
+		height: 900px;
 	}
 
 	#sushi {
-		height: 870px;
+		height: 900px;
 	}
 
 	#header-nav a{
